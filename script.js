@@ -350,7 +350,7 @@ this.document.onmouseover = (e) => {
     console.log(e.target.offsetLeft);
     showChildInfo.style.left =
       e.target.offsetLeft + e.target.clientWidth + 10 + "px";
-    showChildInfo.style.top = e.target.offsetTop + "px";
+    showChildInfo.style.top = e.target.offsetTop + 10 + "px";
   } else {
     showChildInfo.style.visibility = "hidden";
   }

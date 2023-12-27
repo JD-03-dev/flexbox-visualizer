@@ -240,3 +240,16 @@ option {
   color: rgba(0, 0, 0, 0.325);
   border: 1px solid var(--light-blue);
 }
+.show-child-info::before {
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: -6px;
+  height: 10px;
+  width: 10px;
+  background-color: whitesmoke;
+  border-top: 1px solid var(--light-blue);
+  border-left: 1px solid var(--light-blue);
+  border-radius: 2px;
+  transform: rotate(-45deg);
+}
